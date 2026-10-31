@@ -1,0 +1,19 @@
+# Model weights (Large files > 100MB cannot be pushed to standard GitHub)
+*.gguf
+*.part
+*.download
+*.bin
+*.safetensors
+
+# Cache and temporary directories
+.cache/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment and IDE
+.env
+.venv/
+venv/
+.vscode/
+.idea/
